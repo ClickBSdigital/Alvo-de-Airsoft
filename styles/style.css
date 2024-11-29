@@ -1,0 +1,101 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+/* Header e Menu */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1a1a1a;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav .menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+nav .menu li a:hover,
+nav .menu li a.ativo {
+    color: #ff4500;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('assets/imagens/fundo.jpg') no-repeat center center/cover;
+    color: #ffffff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff4500;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #e63900;
+}
+
+/* Missões */
+#missao {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+#missao h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#missao ul {
+    list-style: none;
+    padding: 0;
+}
+
+#missao ul li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #00ff00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0f0f0f;
+    color: #666666;
+}
